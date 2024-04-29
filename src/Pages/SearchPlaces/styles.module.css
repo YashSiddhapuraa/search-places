@@ -1,0 +1,27 @@
+.limitAndPagination {
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.limits{
+    border: none;
+    outline: none;
+    background-color: #dddddd;
+    border-radius: 10px;
+    padding: 10px;
+}
+.inputWrapper{
+  width: 100%;
+  margin-top: 10px;
+}
+
+@media (max-width: 570px) {
+  .limitAndPagination{
+    justify-content: center;
+  }
+}

@@ -1,10 +1,11 @@
 import './App.css'
+import SearchPlaces from './Pages/SearchPlaces'
 
 function App() {
 
   return (
     <>
-      DEMO
+      <SearchPlaces />
     </>
   )
 }
